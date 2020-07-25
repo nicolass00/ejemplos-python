@@ -1,3 +1,9 @@
+from tkinter import *
+root = Tk()
+root.title("Mi titulo")
+root.geometry("450x300")
+root.mainloop()
+
 print("Inicio del programa")
 
 miLista = [2, 1, 5, 4, 3] #1,2,3,4,5
@@ -19,4 +25,4 @@ print("Invertido")
 for element in miLista:
     print(element)
 
-print("Fin del programa")
+print("Fin del programa") 
